@@ -1,7 +1,7 @@
 # ISRO_Chandrayan_Moon_Mapping
 Chandrayaan moon mapping problem was proposed by the ISRO (Indian Space Research Organization) in the Inter IIT tech meet 11.0 held at IIT Kanpur.  Our team (Sourav Saini, Aashray Gupta, Aayush Gupta, Divyansh Mundra, Falak Singla, Sanath Naveen Sharma, Satyansh Sharma) from IIT Jammu, won Silver Medal.
 
-## Introduction
+### Introduction
 
 The Chandrayaan-2 Mission of ISRO was launched on July 22, 2019 from the Indian Space Port, Sriharikota by GSLV Mk-III. It was a highly complex mission comprising many new technological developments. The mission is designed to expand the lunar scientific knowledge through detailed study of topography, mineral identification and distribution, surface chemical composition, as well as the lunar exosphere. 
 
@@ -18,25 +18,25 @@ Part 2
 
 To generate a global lunar atlas (digital) with the help of the AI/ML model, based on the medium / low resolution data available. The AI/ML model to be developed by using the publically available overlapping data of OHRC (~30 cm resolution) and TMC-2 (5 m /10 m resolution) payload data on board Chandrayaan-2 Orbiter.
 
-## How to use our custom model:
+### How to use our custom model:
 
 **Caution** : Please run the google colab notebook on gpu.
 
-Create a shortcut of Real-ESRGAN-master:
+* Create a shortcut of Real-ESRGAN-master:
 Go to the link [Real-ESRGAN-master](https://drive.google.com/drive/folders/1MMRjSXpHObHC2czmbljown8ILGOTrXpl), right click on Real-ESRGAN-master folder, and select the option add a shortcut to drive, then click on add shortcut.
 
 Execute the colab notebook as mentioned in the notebook, block by block.
 
-Please put the path of the input image in the “image_input_path” variable in the last block of code.
-Also, put the path of the output image in the  “image_output_path” variable in the last block of code.
-image_input_path = "sample_input.png"
-image_output_path = "sample_output.png"
-Super_res(image_input_path , image_output_path)
+1. Please put the path of the input image in the “image_input_path” variable in the last block of code.
+2. Also, put the path of the output image in the  “image_output_path” variable in the last block of code.
+3. image_input_path = "sample_input.png"
+5. image_output_path = "sample_output.png"
+6. Super_res(image_input_path , image_output_path)
 
-Note : Our final model is present in custom_model.
-Software Requirements :  If you are running the model on normal version of colab, then GPU RAM will overflow. So, please use small sized images to model, or slice the image in small parts.
+* Note : Our final model is present in custom_model.
+* Software Requirements :  If you are running the model on normal version of colab, then GPU RAM will overflow. So, please use small sized images to model, or slice the image in small parts.
 
-Citations:  
+### Citations:  
 Cite as:
 arXiv:2107.10833 [eess.IV]
  
@@ -45,6 +45,6 @@ arXiv:2107.10833 [eess.IV]
 https://doi.org/10.48550/arXiv.2107.10833
 
 
-References:
+### References:
 Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data
 Xintao Wang, Liangbin Xie, Chao Dong, Ying Shan

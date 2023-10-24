@@ -20,14 +20,14 @@ To generate a global lunar atlas (digital) with the help of the AI/ML model, bas
 
 ### How to use our custom model:
 
-**Caution** : Please run the google colab notebook on gpu.
+**Caution** : Run the google colab notebook on gpu.
 
 * Create a shortcut of Real-ESRGAN-master:
 Go to the link [Real-ESRGAN-master](https://drive.google.com/drive/folders/1MMRjSXpHObHC2czmbljown8ILGOTrXpl), right click on Real-ESRGAN-master folder, and select the option add a shortcut to drive, then click on add shortcut.
 
 Execute the colab notebook as mentioned in the notebook, block by block.
 
-1. Please put the path of the input image in the “image_input_path” variable in the last block of code.
+1. Put the path of the input image in the “image_input_path” variable in the last block of code.
 2. Also, put the path of the output image in the  “image_output_path” variable in the last block of code.
 3. image_input_path = "sample_input.png"
 5. image_output_path = "sample_output.png"
